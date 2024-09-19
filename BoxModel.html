@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Modeling</title>
+    <style>
+        .example1{
+            width: 200px;
+            background-color:yellow ;
+            padding: 0px;
+            border: 0px;
+            margin:0px;
+        }
+        .example2{
+            width: 200px;
+            background-color:deepskyblue ;
+            padding: 100px;
+            border: 15px double black;
+            margin:40px 20px ;
+        }
+        hr{
+            background-color: indigo;
+        }
+        img#burgerleft{
+            float:left;
+        }
+        img#burgerright{
+            float:right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Model Example</h1>
+    <p class="example1">Example 1 for box modeling</p>
+    <hr>
+    <p class="example2">Example 2 for box modeling</p>
+    <p>
+        <img id="burgerleft" src="burger.jpg" alt="FOOD!" style="width: 200px; height: 200px;"> 
+        <img id="burgerright" src="burger.jpg" alt="FOOD!" style="width: 300px; height: 300px;">
+    </p>
+</body>
+</html>
